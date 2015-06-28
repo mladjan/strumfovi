@@ -1,0 +1,32 @@
+//
+//  MerchantPrefixHeader.pch
+//  Merchant
+//
+//  Created by Mladjan Antic on 1/1/15.
+//  Copyright (c) 2015 BLGRD. All rights reserved.
+//
+
+#ifndef Merchant_MerchantPrefixHeader_pch
+#define Merchant_MerchantPrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
+#import "LocalManager.h"
+#import "NSManagedObject+SafeSetValues.h"
+#import "BCDImportOperation.h"
+#import "NSString+Extensions.h"
+#import "NSDate+CupertinoYankee.h"
+#import <Parse/Parse.h>
+#import "NSDate+Utilities.h"
+
+#import "General.h"
+#import "Position.h"
+
+#endif
+
+
+
+
+#endif
