@@ -40,11 +40,16 @@
 		71C788A11B36B5D50082B00E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C788A01B36B5D50082B00E /* main.m */; };
 		71C788A41B36B5D50082B00E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C788A31B36B5D50082B00E /* AppDelegate.m */; };
 		71C788A71B36B5D50082B00E /* S_trumfovi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71C788A51B36B5D50082B00E /* S_trumfovi.xcdatamodeld */; };
-		71C788AA1B36B5D50082B00E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C788A91B36B5D50082B00E /* ViewController.m */; };
 		71C788AD1B36B5D50082B00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C788AB1B36B5D50082B00E /* Main.storyboard */; };
 		71C788AF1B36B5D50082B00E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C788AE1B36B5D50082B00E /* Images.xcassets */; };
 		71C788B21B36B5D50082B00E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C788B01B36B5D50082B00E /* LaunchScreen.xib */; };
 		71C788BE1B36B5D50082B00E /* S_trumfoviTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C788BD1B36B5D50082B00E /* S_trumfoviTests.m */; };
+		71E3E7E21B40715F00DCB3DA /* REDActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E3E7DF1B40715F00DCB3DA /* REDActionSheet.m */; };
+		71E3E7E31B40715F00DCB3DA /* REDActionSheetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E3E7E11B40715F00DCB3DA /* REDActionSheetButton.m */; };
+		71E3E7E61B40766300DCB3DA /* creative.otf in Resources */ = {isa = PBXBuildFile; fileRef = 71E3E7E51B40766300DCB3DA /* creative.otf */; };
+		71E3E7E81B407A2100DCB3DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E3E7E71B407A2100DCB3DA /* ViewController.m */; };
+		71E3E7EB1B40821A00DCB3DA /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E3E7EA1B40821A00DCB3DA /* InfoTableViewController.m */; };
+		71E3E7EE1B4087E800DCB3DA /* SettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E3E7ED1B4087E800DCB3DA /* SettingsTableViewCell.m */; };
 		C0125655B4FFEB17AF81BCFE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC26D590533F6DB6BAA69779 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -97,13 +102,22 @@
 		71C788A31B36B5D50082B00E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71C788A61B36B5D50082B00E /* S_trumfovi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = S_trumfovi.xcdatamodel; sourceTree = "<group>"; };
 		71C788A81B36B5D50082B00E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71C788A91B36B5D50082B00E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		71C788AC1B36B5D50082B00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71C788AE1B36B5D50082B00E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71C788B11B36B5D50082B00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		71C788B71B36B5D50082B00E /* ŠtrumfoviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ŠtrumfoviTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C788BC1B36B5D50082B00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71C788BD1B36B5D50082B00E /* S_trumfoviTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = S_trumfoviTests.m; sourceTree = "<group>"; };
+		71E3E7DE1B40715F00DCB3DA /* REDActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDActionSheet.h; sourceTree = "<group>"; };
+		71E3E7DF1B40715F00DCB3DA /* REDActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDActionSheet.m; sourceTree = "<group>"; };
+		71E3E7E01B40715F00DCB3DA /* REDActionSheetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDActionSheetButton.h; sourceTree = "<group>"; };
+		71E3E7E11B40715F00DCB3DA /* REDActionSheetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDActionSheetButton.m; sourceTree = "<group>"; };
+		71E3E7E51B40766300DCB3DA /* creative.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = creative.otf; sourceTree = "<group>"; };
+		71E3E7E71B407A2100DCB3DA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71E3E7E91B40821A00DCB3DA /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoTableViewController.h; path = ../InfoTableViewController.h; sourceTree = "<group>"; };
+		71E3E7EA1B40821A00DCB3DA /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoTableViewController.m; path = ../InfoTableViewController.m; sourceTree = "<group>"; };
+		71E3E7EC1B4087E800DCB3DA /* SettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewCell.h; sourceTree = "<group>"; };
+		71E3E7ED1B4087E800DCB3DA /* SettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewCell.m; sourceTree = "<group>"; };
 		DC26D590533F6DB6BAA69779 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8539454AF446A273242778 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,14 +231,19 @@
 		71C7889D1B36B5D50082B00E /* Štrumfovi */ = {
 			isa = PBXGroup;
 			children = (
+				71E3E7DD1B40712600DCB3DA /* 3rd party */,
 				711B26791B403FF300A18B34 /* CoreData */,
 				71C788A21B36B5D50082B00E /* AppDelegate.h */,
 				71C788A31B36B5D50082B00E /* AppDelegate.m */,
 				711B265A1B40350B00A18B34 /* LocalManager.h */,
 				711B265B1B40350B00A18B34 /* LocalManager.m */,
 				71C788A81B36B5D50082B00E /* ViewController.h */,
-				71C788A91B36B5D50082B00E /* ViewController.m */,
+				71E3E7E71B407A2100DCB3DA /* ViewController.m */,
 				71C788AB1B36B5D50082B00E /* Main.storyboard */,
+				71E3E7EC1B4087E800DCB3DA /* SettingsTableViewCell.h */,
+				71E3E7ED1B4087E800DCB3DA /* SettingsTableViewCell.m */,
+				71E3E7E91B40821A00DCB3DA /* InfoTableViewController.h */,
+				71E3E7EA1B40821A00DCB3DA /* InfoTableViewController.m */,
 				71C788AE1B36B5D50082B00E /* Images.xcassets */,
 				71C788B01B36B5D50082B00E /* LaunchScreen.xib */,
 				711B268A1B40613700A18B34 /* LocationTracking */,
@@ -237,6 +256,7 @@
 		71C7889E1B36B5D50082B00E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71E3E7E51B40766300DCB3DA /* creative.otf */,
 				711B268B1B40649700A18B34 /* siren.caf */,
 				711B26801B40406800A18B34 /* MerchantPrefixHeader.pch */,
 				71C7889F1B36B5D50082B00E /* Info.plist */,
@@ -262,6 +282,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		71E3E7DD1B40712600DCB3DA /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				71E3E7E41B40716200DCB3DA /* RedActionSheet */,
+			);
+			name = "3rd party";
+			sourceTree = "<group>";
+		};
+		71E3E7E41B40716200DCB3DA /* RedActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				71E3E7DE1B40715F00DCB3DA /* REDActionSheet.h */,
+				71E3E7DF1B40715F00DCB3DA /* REDActionSheet.m */,
+				71E3E7E01B40715F00DCB3DA /* REDActionSheetButton.h */,
+				71E3E7E11B40715F00DCB3DA /* REDActionSheetButton.m */,
+			);
+			name = RedActionSheet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -279,7 +318,7 @@
 			);
 			dependencies = (
 			);
-			name = "Štrumfovi";
+			name = "Štrumfovi";
 			productName = "Štrumfovi";
 			productReference = 71C7889B1B36B5D50082B00E /* Štrumfovi.app */;
 			productType = "com.apple.product-type.application";
@@ -357,6 +396,7 @@
 				71C788AD1B36B5D50082B00E /* Main.storyboard in Resources */,
 				71C788B21B36B5D50082B00E /* LaunchScreen.xib in Resources */,
 				711B268C1B40649700A18B34 /* siren.caf in Resources */,
+				71E3E7E61B40766300DCB3DA /* creative.otf in Resources */,
 				71C788AF1B36B5D50082B00E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,17 +463,21 @@
 			files = (
 				71C788A41B36B5D50082B00E /* AppDelegate.m in Sources */,
 				71C788A71B36B5D50082B00E /* S_trumfovi.xcdatamodeld in Sources */,
+				71E3E7EE1B4087E800DCB3DA /* SettingsTableViewCell.m in Sources */,
 				711B267F1B40405700A18B34 /* NSDictionary+Utilities.m in Sources */,
 				711B26731B403F7300A18B34 /* _Position.m in Sources */,
+				71E3E7E21B40715F00DCB3DA /* REDActionSheet.m in Sources */,
 				711B267C1B40404900A18B34 /* NSString+Extensions.m in Sources */,
 				711B265C1B40350B00A18B34 /* LocalManager.m in Sources */,
 				711B26781B403FBB00A18B34 /* NSManagedObject+SafeSetValues.m in Sources */,
 				711B26751B403F7300A18B34 /* Position.m in Sources */,
-				71C788AA1B36B5D50082B00E /* ViewController.m in Sources */,
+				71E3E7E31B40715F00DCB3DA /* REDActionSheetButton.m in Sources */,
 				711B26721B403F7300A18B34 /* _General.m in Sources */,
 				711B26881B40613300A18B34 /* BackgroundTaskManager.m in Sources */,
 				711B26611B403B2C00A18B34 /* BCDImportOperation.m in Sources */,
+				71E3E7E81B407A2100DCB3DA /* ViewController.m in Sources */,
 				711B26891B40613300A18B34 /* LocationShareModel.m in Sources */,
+				71E3E7EB1B40821A00DCB3DA /* InfoTableViewController.m in Sources */,
 				71C788A11B36B5D50082B00E /* main.m in Sources */,
 				711B268F1B40661100A18B34 /* NSDate+Utilities.m in Sources */,
 				711B26741B403F7300A18B34 /* General.m in Sources */,
@@ -644,6 +688,7 @@
 				711B26671B403E7700A18B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71C788961B36B5D50082B00E /* Build configuration list for PBXProject "Štrumfovi" */ = {
 			isa = XCConfigurationList;

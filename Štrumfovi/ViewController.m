@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "REDActionSheet.h"
 @import MapKit;
 @import CoreLocation;
 
@@ -74,5 +75,32 @@
 }
 
 
+- (IBAction)reportTapped:(id)sender {
+    REDActionSheet *actionSheet = [[REDActionSheet alloc] initWithCancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitlesList:@"Radar control", @"Alcohol control", @"Regular control", nil];
+    actionSheet.actionSheetTappedButtonAtIndexBlock = ^(REDActionSheet *actionSheet, NSUInteger buttonIndex) {
+        
+        if(buttonIndex != 3){
+            [SVProgressHUD show];
+            
+            AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+            
+            
+            [manager POST:[NSString stringWithFormat:@"http://strumfovi.herokuapp.com/api/position"] parameters:@{@"longitude":[NSNumber numberWithFloat:self.locationManager.location.coordinate.longitude],@"latitude":[NSNumber numberWithFloat:self.locationManager.location.coordinate.latitude], @"comment":[actionSheet titleForButtonAtIndex:buttonIndex]} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                
+                [SVProgressHUD showSuccessWithStatus:@"Submited" maskType:SVProgressHUDMaskTypeBlack];
+                
+            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                
+                [SVProgressHUD showErrorWithStatus:@"Failed, try again."];
+                
+            }];
+
+        }
+        
+    };
+    
+    [actionSheet showInView:self.view];
+
+}
 
 @end

@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "71C7889A1B36B5D50082B00E"
                BuildableName = "S&#x30c;trumfovi.app"
-               BlueprintName = "S&#x30c;trumfovi"
+               BlueprintName = "&#x160;trumfovi"
                ReferencedContainer = "container:S&#x30c;trumfovi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -58,7 +58,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C7889A1B36B5D50082B00E"
             BuildableName = "S&#x30c;trumfovi.app"
-            BlueprintName = "S&#x30c;trumfovi"
+            BlueprintName = "&#x160;trumfovi"
             ReferencedContainer = "container:S&#x30c;trumfovi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,7 +78,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C7889A1B36B5D50082B00E"
             BuildableName = "S&#x30c;trumfovi.app"
-            BlueprintName = "S&#x30c;trumfovi"
+            BlueprintName = "&#x160;trumfovi"
             ReferencedContainer = "container:S&#x30c;trumfovi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -97,7 +97,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C7889A1B36B5D50082B00E"
             BuildableName = "S&#x30c;trumfovi.app"
-            BlueprintName = "S&#x30c;trumfovi"
+            BlueprintName = "&#x160;trumfovi"
             ReferencedContainer = "container:S&#x30c;trumfovi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -24,8 +24,13 @@
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>App needs your location to constantly update you about radar positions while you are driving.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>creative.otf</string>
+	</array>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>fetch</string>
 		<string>location</string>
 		<string>remote-notification</string>
 	</array>

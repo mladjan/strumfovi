@@ -20,6 +20,7 @@
 #import "NSDate+CupertinoYankee.h"
 #import <Parse/Parse.h>
 #import "NSDate+Utilities.h"
+#import "SVProgressHUD.h"
 
 #import "General.h"
 #import "Position.h"

@@ -8,73 +8,71 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-Bolts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods-CupertinoYankee.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>Pods-Parse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
+		</dict>
+		<key>Pods-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1728C8EBED61F1D5F3B33512</key>
+		<key>1644965DB7B00F9F305F6D37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3266E802E431C20C2AED2379</key>
+		<key>19F8969E8E2F781F091333CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>474B0BC243D6319A9B6BE274</key>
+		<key>7C57FBA97FA30AB80801AB99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A0AC0C96FB8E043C7A60AC07</key>
+		<key>844964C49683EA991E45C904</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C63BE4FD52FBEDAAA6B54248</key>
+		<key>C52E4AE74A558379A20FB4CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FBE0E26D8B7F0B2D08BD2352</key>
+		<key>F4616EF5C9EAD479CF446924</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCC1628DD3F7CB7143BA19A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

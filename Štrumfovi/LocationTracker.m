@@ -285,8 +285,7 @@
         }else{
             minutesPast = 50;
         }
-        NSLog(@"Minutes past: %i", minutesPast);
-        if(distance < 1000.0 &&  minutesPast > 30){
+        if(distance < 1000.0 &&  minutesPast > 30 && [self isPositionEnabledInSettings:position]){
             
             // Create local notification
             UILocalNotification* localNotification = [[UILocalNotification alloc] init];
@@ -306,11 +305,21 @@
         
     }
     
-    
-    
-    
 }
 
+-(BOOL)isPositionEnabledInSettings:(Position *)position{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    if([position.comment isEqualToString:@"Radar control"]){
+        return [defaults boolForKey:@"radar"];
+    }else if([position.comment isEqualToString:@"Alcohol control"]){
+        return [defaults boolForKey:@"alcohol"];
+    }else if([position.comment isEqualToString:@"Regular control"]){
+        return [defaults boolForKey:@"regular"];
+    }else{
+        return NO;
+    }
+}
 
 
 
