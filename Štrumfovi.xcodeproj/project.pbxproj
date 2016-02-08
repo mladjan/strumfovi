@@ -313,6 +313,7 @@
 				71C788981B36B5D50082B00E /* Frameworks */,
 				71C788991B36B5D50082B00E /* Resources */,
 				FF9EE93B9F1081202AD46538 /* Copy Pods Resources */,
+				71FCEB001B63FD2400BD5B66 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -423,6 +424,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mogenerator -m Štrumfovi/S_trumfovi.xcdatamodeld/S_trumfovi.xcdatamodel --template-var arc=true";
+		};
+		71FCEB001B63FD2400BD5B66 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" bf45e4e51dbd7cfdb118fd4c102af77302d70484 e31ad60359eeddd589b926ad3f36b27b134367768d0d6c71dac376a6c763571b";
 		};
 		E369E46FB03C9365E519F69B /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -622,7 +636,8 @@
 			baseConfigurationReference = 2D0D2E4CC83BD27448C795FD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Filip Zrnzevic (SR7W85GWYW)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "Štrumfovi/MerchantPrefixHeader.pch";
 				INFOPLIST_FILE = "Štrumfovi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -637,10 +652,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "Štrumfovi/MerchantPrefixHeader.pch";
 				INFOPLIST_FILE = "Štrumfovi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e3d9ace6-59b9-4c3c-8ce3-d4eeaaefa329";
 			};
 			name = Release;
 		};

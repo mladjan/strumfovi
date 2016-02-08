@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 
 @interface AppDelegate ()
 
@@ -24,6 +26,8 @@
     // Push notifications
     [Parse setApplicationId:@"k0fl25HrxejfxzQIZ2LHLk4yOkd49FOo3EENKCvz"
                   clientKey:@"cG3kksoIkLToQgPbMkXjd1gH9sV6ChOlW9Py0stW"];
+    
+    
     UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound);
     UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes categories:nil];
     [application registerUserNotificationSettings:settings];
@@ -75,6 +79,8 @@
     }
     
     
+    [Fabric with:@[CrashlyticsKit]];
+
     
     return YES;
 }
@@ -138,7 +144,7 @@
     NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSURLSession *session = [NSURLSession sessionWithConfiguration:sessionConfiguration];
     
-    NSURL *url = [[NSURL alloc] initWithString:@"http://yourserver.com/data.json"];
+    NSURL *url = [[NSURL alloc] initWithString:@"http://strumfovi.herokuapp.com/api/positions"];
     NSURLSessionDataTask *task = [session dataTaskWithURL:url
                                         completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                                             
